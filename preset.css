@@ -14,7 +14,8 @@
   flex-direction: column;
 }
 
-.over-ellipsis {
+/* 超出一行隐藏 */
+.truncate {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
