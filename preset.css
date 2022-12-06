@@ -10,15 +10,32 @@
   text-align: center;
 }
 
-.flex-col {
-  flex-direction: column;
+.visible {
+  visibility: visible;
 }
 
-/* 超出一行隐藏 */
-.truncate {
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
+.invisible {
+  visibility: hidden;
+}
+
+.static {
+  position: static;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .flex-center {
@@ -71,9 +88,24 @@
   font-weight: bold;
 }
 
-.py-8 {
-  padding-top: 8px;
-  padding-bottom: 8px;
+.leading-32 {
+  line-height: 32px;
+}
+
+.w-40 {
+  width: 40px;
+}
+
+.w-80 {
+  width: 80px;
+}
+
+.w-120 {
+  width: 120px;
+}
+
+.bottom-0 {
+  bottom: 0;
 }
 
 .px-8 {
@@ -81,8 +113,35 @@
   padding-right: 8px;
 }
 
+.px-16 {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.px-32 {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.py-8 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.pt-12 {
+  padding-top: 12px;
+}
+
 .pl-12 {
   padding-left: 12px;
+}
+
+.pr-12 {
+  padding-right: 12px;
+}
+
+.pr-16 {
+  padding-right: 16px;
 }
 
 .mx-4 {
@@ -93,6 +152,16 @@
 .mx-8 {
   margin-left: 8px;
   margin-right: 8px;
+}
+
+.mx-12 {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.my-4 {
+  margin-top: 4px;
+  margin-bottom: 4px;
 }
 
 .my-8 {
@@ -110,6 +179,10 @@
   margin-bottom: 16px;
 }
 
+.mb-8 {
+  margin-bottom: 8px;
+}
+
 .ml-4 {
   margin-left: 4px;
 }
@@ -124,6 +197,14 @@
 
 .ml-24 {
   margin-left: 24px;
+}
+
+.ml-64 {
+  margin-left: 64px;
+}
+
+.ml-72 {
+  margin-left: 72px;
 }
 
 .mr-4 {
@@ -168,6 +249,10 @@
 
 .color-a-3 {
   color: #d6d6d6;
+}
+
+.color-a-4 {
+  color: #989898;
 }
 
 .bgc-a-1 {
